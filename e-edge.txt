@@ -1,0 +1,42 @@
+vidéo par thème, par titre, produit
+faire un filtre, barre de rcherche,
+https://www.hostinger.fr/tutoriels/galerie-wordpress
+
+integrer une video via youtube
+https://developer.mozilla.org/fr/docs/Apprendre/HTML/Multimedia_and_embedding/Other_embedding_technologies
+
+https://www.it-connect.fr/hyperdb-utiliser-plusieurs-bases-de-donnees-avec-wordpress/
+
+https://www.la-web-fabrik.fr/Wordpress/Comment-Telecharger-Gros-Fichiers-Wordpress.php
+
+https://www.243tech.com/creer-une-barre-de-recherche-sur-son-site-php-mysql/
+
+https://www.univ-orleans.fr/iut-orleans/informatique/intra/tuto/php/bd-php-pdo.html
+
+mysql:
+https://aymeric-auberton.fr/academie/mysql/and-or
+https://sql.sh/cours/update
+
+fonction de recherche avec liste déroulantes :
+https://pub.phyks.me/sdz/sdz/un-menu-de-navigation-en-liste-deroulante.html
+
+decouverte de la fonction $_post:
+https://openclassrooms.com/forum/sujet/recuperer-les-valeur-d-une-liste-deroulante-17600
+https://www.php.net/manual/en/reserved.variables.post.php
+
+fonction row :
+https://www.php.net/manual/fr/function.mysql-fetch-row.php
+
+mise en place du formualire :
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/form
+
+https://pluginarchive.com/wordpress/cookie-notice/v/1-2-11/1-3-0
+
+https://www.alsacreations.com/article/lire/254-le-point-sur-la-fonction-include-php.html
+
+row est un tableau et $_post ou $_get est un tableau superglobal
+https://www.php.net/manual/fr/language.variables.scope.php
+
+https://fr.wikibooks.org/wiki/Programmation_PHP/Concevoir_du_code_de_haute_qualit%C3%A9
+https://eilgin.github.io/php-the-right-way/#interacting_via_code
+
