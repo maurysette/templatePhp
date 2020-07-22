@@ -1,5 +1,4 @@
-vidéo par thème, par titre, produit
-faire un filtre, barre de rcherche,
+
 https://www.hostinger.fr/tutoriels/galerie-wordpress
 
 integrer une video via youtube
@@ -17,7 +16,7 @@ mysql:
 https://aymeric-auberton.fr/academie/mysql/and-or
 https://sql.sh/cours/update
 
-fonction de recherche avec liste déroulantes :
+fonction de recherche avec liste dÃ©roulantes :
 https://pub.phyks.me/sdz/sdz/un-menu-de-navigation-en-liste-deroulante.html
 
 decouverte de la fonction $_post:
