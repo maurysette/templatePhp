@@ -1,9 +1,9 @@
 <?php
 
-define('USER', "root");
-define('PASSWD', "Cutt!ng2020");
-define('DBNAME', "video");
-define('HOST', "localhost");
+define('USER', "");
+define('PASSWD', "");
+define('DBNAME', "");
+define('HOST', "");
 
 $dsn = 'mysql:host=' . HOST . ';dbname=' . DBNAME . ';charset=utf8';
 try {
