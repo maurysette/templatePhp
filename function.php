@@ -40,34 +40,3 @@ get_result($query=null,$output=OBJECT); // query type de requete object type de 
 */
 /* define('DISALLOW_FILE_EDIT',true); pour desactivé l'éditeur de texte */
 
- /* cas avec une boucle while 
-
-                // On affiche chaque entrée une à une
-                while ($donnees = quelCategorie()->fetch()) {
-					?>
-	
-						<div id="affichage-BD" class="container" style="float:left;padding-top: 20px;">
-	
-							<div id="video" style="float:left;">
-								<!-- iframe permet d'ajouter directement la video du support via son url, ciblé par les hackers
-									<iframe width="560" height="315" src="https://www.youtube.com/embed/S67eC-Z03ns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									-->
-								<!-- la balise video permet d'ajouter une video via un dossier plus securisé que iframe -->
-								<video width=350 height=250 controls="controls" preload="metadata">
-									<!-- controls permet d'afficher les outils play pause stop
-									on met directement le lien récuperer en BDD dans la source-->
-									<source src="<?php echo $donnees['lien']; ?>" type="video/mp4">
-									<source src="<?php echo $donnees['lien']; ?>" type="video/wmv">
-								</video>
-							</div>
-							<div id="detailVideo" style="float:left; padding:15px;">
-								<p>
-									<strong> <?php echo $donnees['titre']; ?> </strong> <br />
-									<?php echo $donnees['categorie']; ?> <br />
-									<?php echo $donnees['descriptif']; ?><br />
-									<?php echo $donnees['date']; ?>
-								</p>
-							</div>
-	
-						</div>
-						*/
