@@ -94,9 +94,7 @@ do_action('onepress_page_before_content');
                 <?php
                 }
                 $sqlTable->closeCursor();
-                $sql->closeCursor();
-                $bdd->mysql_close();
-
+                /*$bdd->mysql_close(); permet de fermet la connexion*/
                 ?>
             </main><!-- #main -->
         </div><!-- #primary -->
