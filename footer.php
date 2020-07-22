@@ -55,7 +55,8 @@ if ( ! $hide_footer ) {
 			
                <div class="footer-2-copy-cont clearfix">
                 <!-- Social Links -->
-				  <!-- chaque ancre de lien contient une image avec son css -->
+				  <!-- chaque ancre de lien contient une image avec son css
+			impossible d'appliquer le css dans un autre fichier quelque chose bloque-->
                 <div class="footer-2-soc-a right">
                     <a href="https://www.facebook.com/Cutting-Edge-1424018574309097/" title="Facebook" target="_blank">
 						<img style="width: 40px ;
