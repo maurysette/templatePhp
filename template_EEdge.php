@@ -28,8 +28,7 @@ do_action('onepress_page_before_content');
                 <?php
                 include 'connexion.php';
                 /* methode 1 avec prepate statement pour se connecter à la bdd
-                limite les injections sql pas forcémenet utile dans ce cas car il n'y a pas
-                de formulaire à remplir*/
+                limite les injections sql */
                 $requete = 'SELECT DISTINCT categorie FROM video WHERE actif=1;';
                 $stmt = $bdd->prepare($requete);
                 $stmt->bindParam(':id', $_GET['ID']);
