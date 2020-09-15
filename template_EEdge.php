@@ -29,9 +29,10 @@ do_action('onepress_page_before_content');
                 include 'connexion.php';
                 /* methode 1 avec prepate statement pour se connecter à la bdd
                 limite les injections sql */
-                $requete = 'SELECT DISTINCT categorie FROM video WHERE actif=1;';
+                $requete = 'SELECT DISTINCT categorie FROM video WHERE actif=:valeur;';
                 $stmt = $bdd->prepare($requete);
-                $stmt->bindParam(':id', $_GET['ID']);
+                $stmt->bindParam(':valeur', $actif);
+                $actif=1;
                 $stmt->execute();
                 /* cas avec une boucle étendu */
                 ?>
